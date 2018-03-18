@@ -1,0 +1,12 @@
+; ----------------------------------------------------------------------------------------
+;   GROMOS Topology for poly(3-hexyl-thiophene) (P3HT) - NO_MONOMERSmer
+; ----------------------------------------------------------------------------------------
+;
+;  If using this topology please cite :
+;   - R. Alessandri, J. J. Uusitalo, A. H. de Vries, R. W. A. Havenith, S. J. Marrink,
+;     "Bulk Heterojunction Morphologies with Atomistic Resolution from Coarse-Grain
+;      Solvent Evaporation Simulations",
+;     J. Am. Chem. Soc., 2017, 139, 3697 [DOI: 10.1021/jacs.6b11717]
+;
+; ----------------------------------------------------------------------------------------
+;
