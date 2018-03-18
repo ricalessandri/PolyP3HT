@@ -1,0 +1,43 @@
+[ None ]
+ 
+[ HT5A ]
+;
+[ replace ]
+; since we add an hydrogen, we need to change the charge on the connected C atom
+; name_old name_new type_new mass_new charge_new
+     CT5A     CT5A       C     12.011    -0.394
+[ add ]
+;;; 2 lines per atom added
+; #_of_atoms  method  name  control_atoms (3 or 4)
+      1           1   HT5A   CT5A ST1A CT4A 
+; atomtype  mass  charge chargegroup
+      H    1.008  0.245       0 
+[ bonds ]
+ HT5A CT5A             gb_3
+[ angles ]
+ HT5A CT5A ST1A        ga_56
+ HT5A CT5A CT4A        ga_36
+[ impropers ]
+ HT5A ST1A CT4A CT5A   gi_4
+;
+
+[ HT2B ]
+;
+[ replace ]
+; since we add an hydrogen, we need to change the charge on the connected C atom
+; name_old name_new type_new mass_new charge_new
+     CT2B     CT2B       C     12.011    -0.394
+[ add ]
+;;; 2 lines per atom added
+; #_of_atoms  method  name  control_atoms (3 or 4)
+      1           1   HT2B   CT2B ST1B CT3B
+; atomtype  mass  charge chargegroup
+      H    1.008  0.245       0 
+[ bonds ]
+ CT2B HT2B            gb_3
+[ angles ]
+ ST1B CT2B HT2B       ga_56
+ CT3B CT2B HT2B       ga_36
+[ impropers ]
+ HT2B ST1B CT3B CT2B     gi_4
+; 

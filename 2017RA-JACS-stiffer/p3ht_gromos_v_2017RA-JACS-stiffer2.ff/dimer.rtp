@@ -1,0 +1,306 @@
+[ bondedtypes ]
+; bonds angles dihedrals impropers
+    2      2       1         2    
+;
+[ P3HT ]
+;
+ [ atoms ]
+; name type charge chargegroup
+  ST1A    S    0.194     2  
+  CT2A    C   -0.204     3  
+  CT3A    C    0.233     4  
+  CT4A    C   -0.177     5  
+  HT4A   HC    0.126     6  
+  CT5A    C   -0.094     7  
+; side chain
+  C06A    C   -0.214     8   
+  H06A   HC    0.073     9   
+  H07A   HC    0.073    10   
+  C07A    C   -0.143    11   
+  H08A   HC    0.073    12   
+  H09A   HC    0.073    13   
+  C08A    C   -0.145    14   
+  H10A   HC    0.073    15   
+  H11A   HC    0.073    16   
+  C09A    C   -0.131    17   
+  H12A   HC    0.073    18   
+  H13A   HC    0.073    19   
+  C10A    C   -0.102    20   
+  H14A   HC    0.073    21   
+  H15A   HC    0.073    22   
+  C11A    C   -0.388    23   
+  H16A   HC    0.105    24   
+  H17A   HC    0.105    25   
+  H18A   HC    0.105    26   
+; 2nd monomer
+  ST1B    S    0.194     2 
+  CT2B    C   -0.204     3 
+  CT3B    C    0.233     4 
+  CT4B    C   -0.177     5 
+  HT4B   HC    0.126     6 
+  CT5B    C   -0.094     7 
+; side chain               
+  C06B    C   -0.214     8 
+  H06B   HC    0.073     9 
+  H07B   HC    0.073    10 
+  C07B    C   -0.143    11 
+  H08B   HC    0.073    12 
+  H09B   HC    0.073    13 
+  C08B    C   -0.145    14 
+  H10B   HC    0.073    15 
+  H11B   HC    0.073    16 
+  C09B    C   -0.131    17 
+  H12B   HC    0.073    18 
+  H13B   HC    0.073    19 
+  C10B    C   -0.102    20 
+  H14B   HC    0.073    21 
+  H15B   HC    0.073    22 
+  C11B    C   -0.388    23 
+  H16B   HC    0.105    24 
+  H17B   HC    0.105    25 
+  H18B   HC    0.105    26 
+;
+ [ bonds ]
+;
+ -CT2B  CT5A   gb_19
+;
+  ST1A  CT2A   gb_53
+  ST1A  CT5A   gb_53
+  CT2A  CT3A   gb_13
+  CT3A  CT4A   gb_19
+  CT4A  HT4A   gb_3
+  CT4A  CT5A   gb_13
+  CT3A  C06A   gb_26
+  C06A  H06A   gb_3
+  C06A  H07A   gb_3
+  C06A  C07A   gb_27
+  C07A  H08A   gb_3
+  C07A  H09A   gb_3
+  C07A  C08A   gb_27
+  C08A  H10A   gb_3
+  C08A  H11A   gb_3
+  C08A  C09A   gb_27   
+  C09A  H12A   gb_3   
+  C09A  H13A   gb_3   
+  C09A  C10A   gb_27  
+  C10A  H14A   gb_3  
+  C10A  H15A   gb_3  
+  C10A  C11A   gb_27  
+  C11A  H16A   gb_3
+  C11A  H17A   gb_3  
+  C11A  H18A   gb_3 
+; 1st-2nd connection
+  CT2A  CT5B   gb_19 
+; 2nd monomer
+  ST1B  CT2B   gb_53
+  ST1B  CT5B   gb_53
+  CT2B  CT3B   gb_13
+  CT3B  CT4B   gb_19
+  CT4B  HT4B   gb_3
+  CT4B  CT5B   gb_13 
+  CT3B  C06B   gb_26 
+  C06B  H06B   gb_3      
+  C06B  H07B   gb_3      
+  C06B  C07B   gb_27     
+  C07B  H08B   gb_3      
+  C07B  H09B   gb_3      
+  C07B  C08B   gb_27     
+  C08B  H10B   gb_3      
+  C08B  H11B   gb_3      
+  C08B  C09B   gb_27     
+  C09B  H12B   gb_3      
+  C09B  H13B   gb_3      
+  C09B  C10B   gb_27     
+  C10B  H14B   gb_3      
+  C10B  H15B   gb_3      
+  C10B  C11B   gb_27     
+  C11B  H16B   gb_3      
+  C11B  H17B   gb_3      
+  C11B  H18B   gb_3      
+;
+  CT2B +CT5A   gb_19
+;
+ [ angles ]
+;
+ -CT3B -CT2B  CT5A  ga_58 
+ -CT2B  CT5A  CT4A  ga_58
+ -ST1B -CT2B  CT5A  ga_29
+ -CT2B  CT5A  ST1A  ga_29
+;
+  CT2A  ST1A  CT5A  ga_55  
+  ST1A  CT2A  CT3A  ga_57
+  CT2A  CT3A  CT4A  ga_15  
+  CT3A  CT4A  HT4A  ga_36
+  CT3A  CT4A  CT5A  ga_15
+  HT4A  CT4A  CT5A  ga_36
+  ST1A  CT5A  CT4A  ga_57
+  CT2A  CT3A  C06A  ga_37  
+  CT4A  CT3A  C06A  ga_37
+  CT3A  C06A  H06A  ga_11  
+  CT3A  C06A  H07A  ga_11  
+  H06A  C06A  H07A  ga_11  
+  CT3A  C06A  C07A  ga_11      
+  H06A  C06A  C07A  ga_11      
+  H07A  C06A  C07A  ga_11      
+  C06A  C07A  H08A  ga_11      
+  C06A  C07A  H09A  ga_11      
+  H08A  C07A  H09A  ga_11      
+  C06A  C07A  C08A  ga_11      
+  H08A  C07A  C08A  ga_11      
+  H09A  C07A  C08A  ga_11      
+  C07A  C08A  H10A  ga_11      
+  C07A  C08A  H11A  ga_11      
+  H10A  C08A  H11A  ga_11      
+  C07A  C08A  C09A  ga_11      
+  H10A  C08A  C09A  ga_11      
+  H11A  C08A  C09A  ga_11      
+  C08A  C09A  H12A  ga_11      
+  C08A  C09A  H13A  ga_11      
+  H12A  C09A  H13A  ga_11      
+  C08A  C09A  C10A  ga_11      
+  H12A  C09A  C10A  ga_11      
+  H13A  C09A  C10A  ga_11      
+  C09A  C10A  H14A  ga_11      
+  C09A  C10A  H15A  ga_11      
+  H14A  C10A  H15A  ga_11      
+  C09A  C10A  C11A  ga_11      
+  H14A  C10A  C11A  ga_11      
+  H15A  C10A  C11A  ga_11      
+  C10A  C11A  H16A  ga_11      
+  C10A  C11A  H17A  ga_11      
+  C10A  C11A  H18A  ga_11      
+  H17A  C11A  H18A  ga_11      
+  H16A  C11A  H17A  ga_11      
+  H16A  C11A  H18A  ga_11      
+; 1st-2nd connection
+  CT3A CT2A CT5B    ga_58 
+  CT2A CT5B CT4B    ga_58
+  ST1A CT2A CT5B    ga_29
+  CT2A CT5B ST1B    ga_29
+; 2nd monomer
+  CT2B  ST1B  CT5B  ga_55   
+  ST1B  CT2B  CT3B  ga_57 
+  CT2B  CT3B  CT4B  ga_15
+  CT3B  CT4B  HT4B  ga_36
+  CT3B  CT4B  CT5B  ga_15
+  HT4B  CT4B  CT5B  ga_36
+  ST1B  CT5B  CT4B  ga_57
+  CT2B  CT3B  C06B  ga_37  
+  CT4B  CT3B  C06B  ga_37  
+  CT3B  C06B  H06B  ga_11  
+  CT3B  C06B  H07B  ga_11
+  H06B  C06B  H07B  ga_11  
+  CT3B  C06B  C07B  ga_11  
+  H06B  C06B  C07B  ga_11      
+  H07B  C06B  C07B  ga_11      
+  C06B  C07B  H08B  ga_11      
+  C06B  C07B  H09B  ga_11      
+  H08B  C07B  H09B  ga_11      
+  C06B  C07B  C08B  ga_11      
+  H08B  C07B  C08B  ga_11      
+  H09B  C07B  C08B  ga_11      
+  C07B  C08B  H10B  ga_11      
+  C07B  C08B  H11B  ga_11      
+  H10B  C08B  H11B  ga_11      
+  C07B  C08B  C09B  ga_11      
+  H10B  C08B  C09B  ga_11      
+  H11B  C08B  C09B  ga_11      
+  C08B  C09B  H12B  ga_11      
+  C08B  C09B  H13B  ga_11      
+  H12B  C09B  H13B  ga_11      
+  C08B  C09B  C10B  ga_11      
+  H12B  C09B  C10B  ga_11      
+  H13B  C09B  C10B  ga_11      
+  C09B  C10B  H14B  ga_11      
+  C09B  C10B  H15B  ga_11      
+  H14B  C10B  H15B  ga_11      
+  C09B  C10B  C11B  ga_11      
+  H14B  C10B  C11B  ga_11      
+  H15B  C10B  C11B  ga_11      
+  C10B  C11B  H16B  ga_11      
+  C10B  C11B  H17B  ga_11      
+  C10B  C11B  H18B  ga_11      
+  H17B  C11B  H18B  ga_11      
+  H16B  C11B  H17B  ga_11    
+  H16B  C11B  H18B  ga_11
+;
+  CT3B  CT2B +CT5A  ga_58
+  CT2B +CT5A +CT4A  ga_58
+  ST1B  CT2B +CT5A  ga_29
+  CT2B +CT5A +ST1A  ga_29
+;
+ [ dihedrals ]
+;
+ -ST1B -CT2B  CT5A  ST1A   gd_42  
+ -ST1B -CT2B  CT5A  ST1A   gd_43
+;
+  ST1A  CT5A  CT4A  CT3A   gd_44 
+  ST1A  CT2A  CT3A  CT4A   gd_44
+  CT2A  ST1A  CT5A  CT4A   gd_44  
+  CT2A  CT3A  CT4A  CT5A   gd_44  
+  CT3A  CT2A  ST1A  CT5A   gd_44  
+  CT4A  CT3A  C06A  C07A   gd_40
+  CT3A  C06A  C07A  C08A   gd_34
+  C06A  C07A  C08A  C09A   gd_34
+  C07A  C08A  C09A  C10A   gd_34 
+  C08A  C09A  C10A  C11A   gd_34 
+  C09A  C10A  C11A  H17A   gd_34 
+; 1st-2nd connection
+  ST1A  CT2A  CT5B  ST1B   gd_42   
+  ST1A  CT2A  CT5B  ST1B   gd_43   
+; 2nd monomer
+  ST1B  CT5B  CT4B  CT3B   gd_44   
+  ST1B  CT2B  CT3B  CT4B   gd_44   
+  CT2B  ST1B  CT5B  CT4B   gd_44   
+  CT2B  CT3B  CT4B  CT5B   gd_44   
+  CT3B  CT2B  ST1B  CT5B   gd_44   
+  CT4B  CT3B  C06B  C07B   gd_40   
+  CT3B  C06B  C07B  C08B   gd_34   
+  C06B  C07B  C08B  C09B   gd_34   
+  C07B  C08B  C09B  C10B   gd_34   
+  C08B  C09B  C10B  C11B   gd_34   
+  C09B  C10B  C11B  H17B   gd_34   
+;
+ [ impropers ]
+;
+ -CT2B  ST1A  CT4A  CT5A       gi_4
+;
+  HT4A  CT5A  CT3A  CT4A       gi_4 
+  CT2A  CT4A  C06A  CT3A       gi_4 
+;
+  CT2A  ST1B  CT4B  CT5B       gi_4 
+  CT2A  CT3A  ST1A  CT5B       gi_4 
+; 2nd monomer
+  HT4B  CT5B  CT3B  CT4B       gi_4 
+  CT2B  CT4B  C06B  CT3B       gi_4 
+;
+  CT2B +ST1A +CT4A +CT5A       gi_4
+;
+ [ exclusions ]
+;;;; NOTE: seems not to be working if you have more than 2 atoms per line..?
+; these will generate the required GROMOS 1-4 exclusions 
+; between non-hydrogen atoms which are part of or bound to thiophene rings.
+; NOTE that, if we had only one thiophene ring, no 1-4 neighbours actually exist.
+  ST1A  ST1B
+  ST1A  CT4B
+  CT2A  CT3B  
+  CT2A  CT2B
+  CT3A  ST1B  
+  CT3A  CT4B
+  CT4A  CT5B
+  CT5A  CT5B
+  C06A  ST1A
+  C06A  CT5A
+  C06A  CT5B
+  ST1B +ST1A 
+  ST1B +CT4A 
+  CT2B +CT2A 
+  CT2B +CT3A 
+  CT3B +ST1A 
+  CT3B +CT4A 
+  CT4B +CT5A 
+  CT5B +CT5A 
+  C06B  ST1B
+  C06B  CT5B
+  C06B +CT5A
+;
