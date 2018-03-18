@@ -67,6 +67,10 @@ sed -i '' 's/H16B/H16/g' polymerout.top
 sed -i '' 's/H17B/H17/g' polymerout.top
 sed -i '' 's/H18B/H18/g' polymerout.top
 
+# Multiple dihedral FIX!
+sed -i '' 's/     1    gd_43/     9    gd_43/' polymerout.top
+sed -i '' 's/     1    gd_42/     9    gd_42/' polymerout.top
+
 # Change P3HT name
 sed -i '' 's/Protein/P3HT/g' polymerout.top
 
