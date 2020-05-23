@@ -1,0 +1,21 @@
+; ----------------------------------------------------------------------------------------
+;   Q-FORCED GROMOS 53A6 Topology for poly(3-hexyl-thiophene) (P3HT) - NO_MONOMERSmer
+; ----------------------------------------------------------------------------------------
+;
+; Description:
+;   Bond, angle and stiff dihedrals are QM matched via the Q-Force procedure.
+;   Proper dihedrals are taken from the GROMOS 53A6-based model developed in [DOI: 10.1021/jacs.6b11717].
+;   All the Lennard-Jones parameters are from the GROMOS 53A6 parameter set.
+; Parameterization:
+;   See [DOI: 10.1021/jacs.6b11717] and [DOI: 10.26434/chemrxiv.12277931].
+; Reference(s):
+;   R Alessandri, S Sami, J Barnoud, AH de Vries, SJ Marrink, RWA Havenith, [DOI: 10.26434/chemrxiv.12277931]
+; Warning(s)/Note(s):
+;   Topology based on the GROMOS 53A6-based model developed in :
+;   - R Alessandri, JJ Uusitalo, AH de Vries, RWA Havenith, SJ Marrink, Bulk Heterojunction Morphologies with Atomistic Resolution
+;   from Coarse-Grain Solvent Evaporation Simulations, JACS 2017, 139, 3697 [DOI: 10.1021/jacs.6b11717]
+; Updated:
+;   2019.09.27
+;
+; ----------------------------------------------------------------------------------------
+

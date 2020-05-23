@@ -1,0 +1,11 @@
+ Q-FORCED GROMOS 53A6 AA P3HT force field; for details, please see
+
+   R Alessandri, JJ Uusitalo, AH de Vries, RWA Havenith, SJ Marrink, Bulk Heterojunction Morphologies with Atomistic Resolution
+   from Coarse-Grain Solvent Evaporation Simulations, JACS 2017, 139, 3697 [DOI: 10.1021/jacs.6b11717]
+
+ NOTE!
+ w.r.t. the parameters published in the reference above, 
+ bond, angle and stiff dihedrals are QM matched via the Q-Force procedure. For details, see:
+
+   R Alessandri, S Sami, J Barnoud, AH de Vries, SJ Marrink, RWA Havenith, [DOI: 10.26434/chemrxiv.12277931]
+

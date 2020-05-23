@@ -1,0 +1,327 @@
+[ bondedtypes ]
+; bonds angles dihedrals impropers
+    1      1       1         2    
+;
+[ P3HT ]
+;
+ [ atoms ]
+; name type charge chargegroup
+  ST1A    S    0.194     2  
+  CT2A    C   -0.204     3  
+  CT3A    C    0.233     4  
+  CT4A    C   -0.177     5  
+  HT4A   HC    0.126     6  
+  CT5A    C   -0.094     7  
+; side chain
+  C06A    C   -0.214     8   
+  H06A   HC    0.073     9   
+  H07A   HC    0.073    10   
+  C07A    C   -0.143    11   
+  H08A   HC    0.073    12   
+  H09A   HC    0.073    13   
+  C08A    C   -0.145    14   
+  H10A   HC    0.073    15   
+  H11A   HC    0.073    16   
+  C09A    C   -0.131    17   
+  H12A   HC    0.073    18   
+  H13A   HC    0.073    19   
+  C10A    C   -0.102    20   
+  H14A   HC    0.073    21   
+  H15A   HC    0.073    22   
+  C11A    C   -0.388    23   
+  H16A   HC    0.105    24   
+  H17A   HC    0.105    25   
+  H18A   HC    0.105    26   
+; 2nd monomer
+  ST1B    S    0.194     2 
+  CT2B    C   -0.204     3 
+  CT3B    C    0.233     4 
+  CT4B    C   -0.177     5 
+  HT4B   HC    0.126     6 
+  CT5B    C   -0.094     7 
+; side chain               
+  C06B    C   -0.214     8 
+  H06B   HC    0.073     9 
+  H07B   HC    0.073    10 
+  C07B    C   -0.143    11 
+  H08B   HC    0.073    12 
+  H09B   HC    0.073    13 
+  C08B    C   -0.145    14 
+  H10B   HC    0.073    15 
+  H11B   HC    0.073    16 
+  C09B    C   -0.131    17 
+  H12B   HC    0.073    18 
+  H13B   HC    0.073    19 
+  C10B    C   -0.102    20 
+  H14B   HC    0.073    21 
+  H15B   HC    0.073    22 
+  C11B    C   -0.388    23 
+  H16B   HC    0.105    24 
+  H17B   HC    0.105    25 
+  H18B   HC    0.105    26 
+;
+ [ bonds ]
+;
+ -CT2B  CT5A   0.14605     293542.4 ; C-C interthiophene
+;
+  ST1A  CT2A   0.17362     187560.6 ; C-S thiophene
+  ST1A  CT5A   0.17323     190909.6 ; C-S thiophene
+  CT2A  CT3A   0.13717     381289.4 ; C-C thiophene
+  CT3A  CT4A   0.14237     288822.9 ; C-C thiophene
+  CT4A  HT4A   0.10833     346142.4 ; C-H thiophene
+  CT4A  CT5A   0.13660     397527.3 ; C-C thiophene
+  CT3A  C06A   0.15016     236871.2 ; C-C (thio-alkyl)
+  C06A  H06A   0.10925     304858.8 ; C-H (alkyl)
+  C06A  H07A   0.10925     304858.8 ; C-H (alkyl)
+  C06A  C07A   gb_27
+  C07A  H08A   0.10925     304858.8 ; C-H (alkyl)
+  C07A  H09A   0.10925     304858.8 ; C-H (alkyl)
+  C07A  C08A   gb_27
+  C08A  H10A   0.10925     304858.8 ; C-H (alkyl)
+  C08A  H11A   0.10925     304858.8 ; C-H (alkyl)
+  C08A  C09A   gb_27   
+  C09A  H12A   0.10925     304858.8 ; C-H (alkyl)
+  C09A  H13A   0.10925     304858.8 ; C-H (alkyl)
+  C09A  C10A   gb_27  
+  C10A  H14A   0.10925     304858.8 ; C-H (alkyl)
+  C10A  H15A   0.10925     304858.8 ; C-H (alkyl)
+  C10A  C11A   gb_27  
+  C11A  H16A   0.10925     304858.8 ; C-H (alkyl)
+  C11A  H17A   0.10925     304858.8 ; C-H (alkyl)
+  C11A  H18A   0.10925     304858.8 ; C-H (alkyl)
+; 1st-2nd connection
+  CT2A  CT5B   0.14605     293542.4 ; C-C interthiophene
+; 2nd monomer
+  ST1B  CT2B   0.17362     187560.6 ; C-S thiophene
+  ST1B  CT5B   0.17323     190909.6 ; C-S thiophene
+  CT2B  CT3B   0.13717     381289.4 ; C-C thiophene
+  CT3B  CT4B   0.14237     288822.9 ; C-C thiophene
+  CT4B  HT4B   0.10833     346142.4 ; C-H thiophene
+  CT4B  CT5B   0.13660     397527.3 ; C-C thiophene
+  CT3B  C06B   0.15016     236871.2 ; C-C (thio-alkyl)
+  C06B  H06B   0.10925     304858.8 ; C-H (alkyl)
+  C06B  H07B   0.10925     304858.8 ; C-H (alkyl)
+  C06B  C07B   gb_27
+  C07B  H08B   0.10925     304858.8 ; C-H (alkyl)
+  C07B  H09B   0.10925     304858.8 ; C-H (alkyl)
+  C07B  C08B   gb_27
+  C08B  H10B   0.10925     304858.8 ; C-H (alkyl)
+  C08B  H11B   0.10925     304858.8 ; C-H (alkyl)
+  C08B  C09B   gb_27   
+  C09B  H12B   0.10925     304858.8 ; C-H (alkyl)
+  C09B  H13B   0.10925     304858.8 ; C-H (alkyl)
+  C09B  C10B   gb_27  
+  C10B  H14B   0.10925     304858.8 ; C-H (alkyl)
+  C10B  H15B   0.10925     304858.8 ; C-H (alkyl)
+  C10B  C11B   gb_27  
+  C11B  H16B   0.10925     304858.8 ; C-H (alkyl)
+  C11B  H17B   0.10925     304858.8 ; C-H (alkyl)
+  C11B  H18B   0.10925     304858.8 ; C-H (alkyl)
+;
+  CT2B +CT5A   0.14605     293542.4 ; C-C interthiophene
+;
+ [ angles ]
+;
+ -CT3B -CT2B  CT5A  129.3464      312.223 ; C-C-C interthiophene 
+ -CT2B  CT5A  CT4A  127.9550      363.703 ; C-C-C interthiophene
+ -ST1B -CT2B  CT5A  119.2537      341.195 ; S-C-C interthiophene
+ -CT2B  CT5A  ST1A  121.6373      321.544 ; S-C-C interthiophene
+;
+  CT2A  ST1A  CT5A   92.0575      804.663 ; C-S-C intrathiophene  
+  ST1A  CT2A  CT3A  111.4170      411.510 ; S-C-C intrathiophene
+  CT2A  CT3A  CT4A  111.8233      528.832 ; C-C-C intrathiophene
+  CT3A  CT4A  HT4A  123.2773      286.446 ; C-C-H intrathiophene
+  CT3A  CT4A  CT5A  114.3134      441.529 ; C-C-C intrathiophene
+  HT4A  CT4A  CT5A  122.3792      268.257 ; H-C-C intrathiophene
+  ST1A  CT5A  CT4A  110.3617      428.587 ; S-C-C intrathiophene
+  CT2A  CT3A  C06A  125.2051      401.421 ; C-C-C thio-alkyl
+  CT4A  CT3A  C06A  122.9505      549.293 ; C-C-C thio-alkyl
+  CT3A  C06A  H06A  111.0298      302.428 ; C-C-H thio-alkyl  
+  CT3A  C06A  H07A  111.0298      302.428 ; C-C-H thio-alkyl  
+  H06A  C06A  H07A  107.8680      263.072 ; H-C-H thio-alkyl  
+  CT3A  C06A  C07A  ga_11      
+  H06A  C06A  C07A  ga_11      
+  H07A  C06A  C07A  ga_11      
+  C06A  C07A  H08A  ga_11      
+  C06A  C07A  H09A  ga_11      
+  H08A  C07A  H09A  107.8680      263.072 ; H-C-H thio-alkyl  
+  C06A  C07A  C08A  ga_11      
+  H08A  C07A  C08A  ga_11      
+  H09A  C07A  C08A  ga_11      
+  C07A  C08A  H10A  ga_11      
+  C07A  C08A  H11A  ga_11      
+  H10A  C08A  H11A  107.8680      263.072 ; H-C-H thio-alkyl  
+  C07A  C08A  C09A  ga_11      
+  H10A  C08A  C09A  ga_11      
+  H11A  C08A  C09A  ga_11      
+  C08A  C09A  H12A  ga_11      
+  C08A  C09A  H13A  ga_11      
+  H12A  C09A  H13A  107.8680      263.072 ; H-C-H thio-alkyl  
+  C08A  C09A  C10A  ga_11      
+  H12A  C09A  C10A  ga_11      
+  H13A  C09A  C10A  ga_11      
+  C09A  C10A  H14A  ga_11      
+  C09A  C10A  H15A  ga_11      
+  H14A  C10A  H15A  107.8680      263.072 ; H-C-H thio-alkyl  
+  C09A  C10A  C11A  ga_11      
+  H14A  C10A  C11A  ga_11      
+  H15A  C10A  C11A  ga_11      
+  C10A  C11A  H16A  ga_11      
+  C10A  C11A  H17A  ga_11      
+  C10A  C11A  H18A  ga_11      
+  H17A  C11A  H18A  107.8680      263.072 ; H-C-H thio-alkyl  
+  H16A  C11A  H17A  107.8680      263.072 ; H-C-H thio-alkyl  
+  H16A  C11A  H18A  107.8680      263.072 ; H-C-H thio-alkyl  
+; 1st-2nd connection
+  CT3A CT2A CT5B    129.5641      316.565 ; C-C-C interthiophene 
+  CT2A CT5B CT4B    127.9550      363.703 ; C-C-C interthiophene
+  ST1A CT2A CT5B    119.0177      345.621 ; S-C-C interthiophene
+  CT2A CT5B ST1B    121.6373      321.544 ; S-C-C interthiophene
+; 2nd monomer
+  CT2B  ST1B  CT5B   92.0575      804.663 ; C-S-C intrathiophene  
+  ST1B  CT2B  CT3B  111.4170      411.510 ; S-C-C intrathiophene
+  CT2B  CT3B  CT4B  111.8233      528.832 ; C-C-C intrathiophene
+  CT3B  CT4B  HT4B  123.2773      286.446 ; C-C-H intrathiophene
+  CT3B  CT4B  CT5B  114.3134      441.529 ; C-C-C intrathiophene
+  HT4B  CT4B  CT5B  122.3792      268.257 ; H-C-C intrathiophene
+  ST1B  CT5B  CT4B  110.3617      428.587 ; S-C-C intrathiophene
+  CT2B  CT3B  C06B  125.2051      401.421 ; C-C-C thio-alkyl
+  CT4B  CT3B  C06B  122.9505      549.293 ; C-C-C thio-alkyl
+  CT3B  C06B  H06B  111.0298      302.428 ; C-C-H thio-alkyl  
+  CT3B  C06B  H07B  111.0298      302.428 ; C-C-H thio-alkyl  
+  H06B  C06B  H07B  107.8680      263.072 ; H-C-H thio-alkyl  
+  CT3B  C06B  C07B  ga_11      
+  H06B  C06B  C07B  ga_11      
+  H07B  C06B  C07B  ga_11      
+  C06B  C07B  H08B  ga_11      
+  C06B  C07B  H09B  ga_11      
+  H08B  C07B  H09B  107.8680      263.072 ; H-C-H thio-alkyl  
+  C06B  C07B  C08B  ga_11      
+  H08B  C07B  C08B  ga_11      
+  H09B  C07B  C08B  ga_11      
+  C07B  C08B  H10B  ga_11      
+  C07B  C08B  H11B  ga_11      
+  H10B  C08B  H11B  107.8680      263.072 ; H-C-H thio-alkyl  
+  C07B  C08B  C09B  ga_11      
+  H10B  C08B  C09B  ga_11      
+  H11B  C08B  C09B  ga_11      
+  C08B  C09B  H12B  ga_11      
+  C08B  C09B  H13B  ga_11      
+  H12B  C09B  H13B  107.8680      263.072 ; H-C-H thio-alkyl  
+  C08B  C09B  C10B  ga_11      
+  H12B  C09B  C10B  ga_11      
+  H13B  C09B  C10B  ga_11      
+  C09B  C10B  H14B  ga_11      
+  C09B  C10B  H15B  ga_11      
+  H14B  C10B  H15B  107.8680      263.072 ; H-C-H thio-alkyl  
+  C09B  C10B  C11B  ga_11      
+  H14B  C10B  C11B  ga_11      
+  H15B  C10B  C11B  ga_11      
+  C10B  C11B  H16B  ga_11      
+  C10B  C11B  H17B  ga_11      
+  C10B  C11B  H18B  ga_11      
+  H17B  C11B  H18B  107.8680      263.072 ; H-C-H thio-alkyl  
+  H16B  C11B  H17B  107.8680      263.072 ; H-C-H thio-alkyl  
+  H16B  C11B  H18B  107.8680      263.072 ; H-C-H thio-alkyl  
+;
+  CT3B  CT2B +CT5A  129.5641      316.565 ; C-C-C interthiophene 
+  CT2B +CT5A +CT4A  127.9550      363.703 ; C-C-C interthiophene
+  ST1B  CT2B +CT5A  119.0177      345.621 ; S-C-C interthiophene
+  CT2B +CT5A +ST1A  121.6373      321.544 ; S-C-C interthiophene
+;
+ [ dihedrals ]
+;
+ -ST1B -CT2B  CT5A  ST1A   gd_42  
+ -ST1B -CT2B  CT5A  ST1A   gd_43
+;
+  CT4A  CT3A  C06A  C07A   gd_40
+  CT3A  C06A  C07A  C08A   gd_34
+  C06A  C07A  C08A  C09A   gd_34
+  C07A  C08A  C09A  C10A   gd_34 
+  C08A  C09A  C10A  C11A   gd_34 
+  C09A  C10A  C11A  H17A   gd_34 
+; 1st-2nd connection
+  ST1A  CT2A  CT5B  ST1B   gd_42   
+  ST1A  CT2A  CT5B  ST1B   gd_43   
+; 2nd monomer
+  CT4B  CT3B  C06B  C07B   gd_40   
+  CT3B  C06B  C07B  C08B   gd_34   
+  C06B  C07B  C08B  C09B   gd_34   
+  C07B  C08B  C09B  C10B   gd_34   
+  C08B  C09B  C10B  C11B   gd_34   
+  C09B  C10B  C11B  H17B   gd_34   
+;
+  ST1B  CT2B +CT5A +ST1A   gd_42  
+  ST1B  CT2B +CT5A +ST1A   gd_43
+;
+ [ impropers ]
+;
+ -CT4B -CT3B -CT2B  CT5A  -179.6728       61.780 ; interthiophene
+ -CT5B -ST1B -CT2B  CT5A  -178.2466       10.939 ; C-S-C-C interthiophene  
+ -C06B -CT3B -CT2B  CT5A    -0.7379       49.713 ; interthiophene
+ -CT2B  CT5A  ST1A  CT2A  -179.2522       37.200 ; interthiophene
+ -CT2B  CT5A  CT4A  CT3A   178.8580      102.634 ; interthiophene
+ -CT2B  CT5A  CT4A  HT4A    -3.0762       28.658 ; interthiophene
+;
+  HT4A  CT4A  CT5A  ST1A   179.3875       77.340 ; H-C-C-S intrathio
+  CT5A  CT4A  CT3A  CT2A    -0.2834      196.308 ; C-C-C-C intrathio
+  CT5A  CT4A  CT3A  C06A   178.1274       77.644 ; C-C-C-C (thio-alkyl) intra
+  HT4A  CT4A  CT3A  CT2A  -178.3295       42.121 ; H-C-C-C intrathio
+  HT4A  CT4A  CT3A  C06A     0.0813       28.388 ; H-C-C-C (thio-alkyl) intra 
+  CT4A  CT5A  ST1A  CT2A    -1.5338      377.945 ; C-C-S-C intrathio
+  CT4A  CT3A  CT2A  ST1A    -0.8962      168.539 ; C-C-C-S intrathio
+  C06A  CT3A  CT2A  ST1A  -179.2641      185.830 ; C-C-C-S (thio-alkyl) intra
+  CT3A  CT2A  ST1A  CT5A     1.3979       25.144 ; C-C-S-C intrathio
+; 1st-2nd
+  CT4A  CT3A  CT2A  CT5B   178.7006       62.504 ; C-C-C-C interthiophene
+  CT5A  ST1A  CT2A  CT5B  -178.2466       10.939 ; C-S-C-C interthiophene  
+  C06A  CT3A  CT2A  CT5B     0.3327       51.507 ; C-C-C-C interthiophene
+  CT2A  CT5B  ST1B  CT2B   178.1813       17.136 ; interthiophene
+  CT2A  CT5B  CT4B  CT3B  -177.8440      108.439 ; interthiophene
+  CT2A  CT5B  CT4B  HT4B     3.1702       28.005 ; C-C-C-H interthiophene
+; 2nd monomer
+  HT4B  CT4B  CT5B  ST1B   179.3875       77.340 ; H-C-C-S intrathio
+  CT5B  CT4B  CT3B  CT2B    -0.2834      196.308 ; C-C-C-C intrathio
+  CT5B  CT4B  CT3B  C06B   178.1274       77.644 ; C-C-C-C (thio-alkyl) intra
+  HT4B  CT4B  CT3B  CT2B  -178.3295       42.121 ; H-C-C-C intrathio
+  HT4B  CT4B  CT3B  C06B     0.0813       28.388 ; H-C-C-C (thio-alkyl) intra 
+  CT4B  CT5B  ST1B  CT2B    -1.5338      377.945 ; C-C-S-C intrathio
+  CT4B  CT3B  CT2B  ST1B    -0.8962      168.539 ; C-C-C-S intrathio
+  C06B  CT3B  CT2B  ST1B  -179.2641      185.830 ; C-C-C-S (thio-alkyl) intra
+  CT3B  CT2B  ST1B  CT5B     1.3979       25.144 ; C-C-S-C intrathio
+;
+  CT4B  CT3B  CT2B +CT5A   178.7006       62.504 ; C-C-C-C interthiophene
+  CT5B  ST1B  CT2B +CT5A  -178.2466       10.939 ; C-S-C-C interthiophene  
+  C06B  CT3B  CT2B +CT5A     0.3327       51.507 ; C-C-C-C interthiophene
+  CT2B +CT5A +ST1A +CT2A   178.1813       17.136 ; interthiophene
+  CT2B +CT5A +CT4A +CT3A  -177.8440      108.439 ; interthiophene
+  CT2B +CT5A +CT4A +HT4A     3.1702       28.005 ; C-C-C-H interthiophene
+;
+ [ exclusions ]
+;;;; NOTE: seems not to be working if you have more than 2 atoms per line..?
+; these will generate the required GROMOS 1-4 exclusions 
+; between non-hydrogen atoms which are part of or bound to thiophene rings.
+; NOTE that, if we had only one thiophene ring, no 1-4 neighbours actually exist.
+  ST1A  ST1B
+  ST1A  CT4B
+  CT2A  CT3B  
+  CT2A  CT2B
+  CT3A  ST1B  
+  CT3A  CT4B
+  CT4A  CT5B
+  CT5A  CT5B
+  C06A  ST1A
+  C06A  CT5A
+  C06A  CT5B
+  ST1B +ST1A 
+  ST1B +CT4A 
+  CT2B +CT2A 
+  CT2B +CT3A 
+  CT3B +ST1A 
+  CT3B +CT4A 
+  CT4B +CT5A 
+  CT5B +CT5A 
+  C06B  ST1B
+  C06B  CT5B
+  C06B +CT5A
+;
