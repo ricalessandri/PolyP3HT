@@ -1,17 +1,40 @@
 # PolyP3HT : Polymerize Atomistic P3HT
 
 Handy script to generate topology and geometry files of arbitrarily long atomistic P3HT chains.
-The released version, which works for the GROMOS 53A6-based published parameters in [JACS 139 (10), 3697-3705](https://pubs.acs.org/doi/abs/10.1021/jacs.6b11717), can be found on [my Figshare page](https://figshare.com/articles/Polymerize_Atomistic_P3HT/5853060).
 
-This repository contains also a version which generates a *stiffer* version of the P3HT backbone. This improves the planarity of the polythiophene backbone, which was otherwise too flexible with the GROMOS standard force constant for the improper dihedrals. This model is *recommended* for use in combination with subsequent quantum mechanical calculations on the P3HT geometries.
+Two force fields version are available:
+
+1. The GROMOS 53A6-based parameters published in 
+[JACS **2017**, *139*, 3697-3705](https://pubs.acs.org/doi/abs/10.1021/jacs.6b11717) - see the `2017RA-JACS` folder; 
+
+2. The "Q-Forced" parameters (still relying on the GROMOS 53A6 Lennard-Jones parameters) published
+in [Chemrxiv **2020**](10.26434/chemrxiv.12277931) - see the `2020RA-qforce` folder.
+This version improves the bonded parameters of P3HT, which were otherwise too flexible 
+with the GROMOS standard parameters for angles and improper dihedrals in particular. 
+This model is *recommended* for use in combination with subsequent quantum chemical calculations 
+on the P3HT geometries (see, *e.g*, [Chemrxiv **2020**](10.26434/chemrxiv.12277931)).
+
+Both can be also downloaded from [Figshare](http://doi.org/10.6084/m9.figshare.5853060), 
+which contains also a few example files obtained with the scripts.
 
 
-### Use
+## Use
 
-<pre><code>./PolyP3HT.sh 12
-</code></pre>
+```
+cd 2017RA-JACS
+./PolyP3HT.sh       12   # on Linux
+./PolyP3HT-macOS.sh 12   # on macOS
+```
 
-where 12 is the desired number of monomers (note only that the number of monomers in the chain *must* be a multiple of 2). Make sure the files *shift-resnr.py*, *residuetypes.dat*, *p3ht_dimer_repeat_unit_50atoms.gro*, *header*, and *top2itp.sh* are in the folder where the script is being exectured along with the directory *p3ht_gromos_v_2017RA-JACS.ff/* which contains the force field. The output files are in GROMACS format (`itp` and `gro` for the topology and geometry, respectively).
+where 12 is the desired number of monomers (note only that the number of monomers in the chain *must* 
+be a multiple of 2). 
+Note that the files `shift-resnr.py`, `residuetypes.dat`, `p3ht_dimer_repeat_unit_50atoms.gro`, `header`, 
+and `top2itp.sh` must be in the folder where the script is being exectured along with the directory 
+`p3ht_gromos_v_2017RA-JACS.ff/` which contains the force field.
+The commands are analogous for the `2020RA-qforce` version. 
+The output files are in GROMACS format (`itp` and `gro` for the topology and geometry, respectively).
+More details are also included in the Supporting Information of [Chemrxiv **2020**](10.26434/chemrxiv.12277931).
+
 
 ## License
 
@@ -30,3 +53,4 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 </code></pre>
+
