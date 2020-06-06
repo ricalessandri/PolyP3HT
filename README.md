@@ -8,11 +8,11 @@ Two force fields are available:
 [JACS **2017**, *139*, 3697-3705](https://pubs.acs.org/doi/abs/10.1021/jacs.6b11717) - see the **`2017RA-JACS`** folder; 
 
 2. The "Q-Forced" parameters (still relying on the GROMOS 53A6 Lennard-Jones parameters) published
-in [Chemrxiv **2020**](10.26434/chemrxiv.12277931) - see the **`2020RA-qforce`** folder.
+in [Chemrxiv **2020**](https://doi.org/10.26434/chemrxiv.12277931) - see the **`2020RA-qforce`** folder.
 This version improves the bonded parameters of P3HT, which were otherwise too flexible 
 with the GROMOS standard parameters for angles and improper dihedrals in particular. 
 This model is *recommended for use in combination with subsequent quantum chemical calculations* 
-on the P3HT geometries (see, *e.g*, [Chemrxiv **2020**](10.26434/chemrxiv.12277931)).
+on the P3HT geometries (see, *e.g*, [Chemrxiv **2020**](https://doi.org/10.26434/chemrxiv.12277931)).
 
 Both can be also downloaded from [Figshare](http://doi.org/10.6084/m9.figshare.5853060), 
 which contains also a few example files obtained with the scripts.
@@ -35,7 +35,7 @@ and `top2itp.sh` must be in the folder where the script is being exectured along
 `p3ht_gromos_v_2017RA-JACS.ff/` which contains the force field.
 The commands are analogous for the `2020RA-qforce` version. 
 The output files are in GROMACS format (`itp` and `gro` for the topology and geometry, respectively).
-More details are also included in the Supporting Information of [Chemrxiv **2020**](10.26434/chemrxiv.12277931).
+More details are also included in the Supporting Information of [Chemrxiv **2020**](https://doi.org/10.26434/chemrxiv.12277931).
 
 
 ## License
